@@ -1,1 +1,25 @@
+Ul{
+    list-style:square;
+}
+a:link{
+    color: violet;
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    color:blue;
+}
+.container{
+    text-align: center;
+    
+}
+body{
+    background-color: aqua;
+    
+}
+h1{
+text-transform: uppercase;
+}
+
 
