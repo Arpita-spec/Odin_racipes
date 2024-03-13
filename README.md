@@ -1,4 +1,4 @@
 # Odin_racipes
-My first html project
+My first project
 What I am showcasing:
-My beginner knowledge on html
+My beginner knowledge on html and css 
