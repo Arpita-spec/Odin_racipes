@@ -1,41 +1,59 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
     line-height: 1.5em;
 }
-ul{
-    border: 5px solid green;
-    padding-top: 5px;
-    margin-left:500px;
+.green,
+.brocoli{
+    
+    
+    margin-left :500px;
     margin-right:500px;
     margin-bottom:30px;
     margin-top:30px;
     padding-bottom:50px;
     padding-top: 50px;
+    border:5px solid green ;
+    list-style:square;
+    padding:30px;
     
-    list-style: none;
 }
-ol{
-    list-style: none;
-    border: 5px solid green;
-    padding-top: 5px;
-    margin-left:500px;
+
+.yellow,.corn{
+    
+    margin-left :500px;
     margin-right:500px;
     margin-bottom:30px;
     margin-top:30px;
     padding-bottom:50px;
     padding-top: 50px;
+    border:10px solid yellow ;
+    list-style: square;
+    padding:30px;
+
+}
+.orange,.carrot{
     
+    margin-left :500px;
+    margin-right:500px;
+    margin-bottom:30px;
+    margin-top:30px;
+    padding-bottom:50px;
+    padding-top: 50px;
+    border:5px solid orange ;
+    list-style:square;
+    padding: 30px;
 }
 a:link{
     color: white;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 a:hover{
     color:aqua;
 }
 a:visited{
-    color:blue;
+    color:whitesmoke;
 }
 .container{
     text-align: center;
@@ -46,11 +64,14 @@ a:visited{
     color:white;
     background-image: url(food.webp) ;
     font-weight: bold;
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 h1{
 text-transform: uppercase;
+color: blueviolet;
 }
 .container,
 .vegetable,
@@ -58,11 +79,21 @@ text-transform: uppercase;
     background-color:black;
     text-align: center;
     color:white;
+    /*border:5px solid blue;*/
+    background-image: url(vegetables.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+
+    
 }
 h2{
     text-transform: uppercase;
-    color:blue;
+    color:blueviolet;
     margin-bottom: -5px;
+    text-decoration: underline;
 }
 /*.ingredients{
     border: 20px solid red;
@@ -73,4 +104,15 @@ p{
 }
 img{
     width:500px;
+    border: 2px solid blueviolet;
+}
+/*.main-header{
+    position: relative;
+}*/
+p,ul,ol{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.index{
+    display:block;
 }
