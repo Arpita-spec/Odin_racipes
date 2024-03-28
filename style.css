@@ -3,47 +3,26 @@
     padding:0;
     line-height: 1.5em;
 }
-.green,
-.brocoli{
+.Ingredients,
+.steps{
     
     
     margin-left :500px;
     margin-right:500px;
     margin-bottom:30px;
     margin-top:30px;
-    padding-bottom:50px;
-    padding-top: 50px;
-    border:5px solid green ;
-    
-    padding:30px;
-    
-}
-
-.yellow,.corn{
-    
-    margin-left :500px;
-    margin-right:500px;
-    margin-bottom:30px;
-    margin-top:30px;
-    padding-bottom:50px;
-    padding-top: 50px;
-    border:5px solid yellow;
    
-    padding:30px;
-
-}
-.orange,.carrot{
     
-    margin-left :500px;
-    margin-right:500px;
-    margin-bottom:30px;
-    margin-top:30px;
-    padding-bottom:50px;
-    padding-top: 50px;
-    border:5px solid orangered ;
-
-    padding:30px;
+    max-width: 700px;
+    padding:30px 50px 30px 50px;
+    
 }
+
+
+
+
+
+
 a:link{
     color: white;
     font-size:20px;
@@ -71,7 +50,7 @@ a:visited{
 }
 h1{
 text-transform: uppercase;
-color: blueviolet;
+color: lime;
 }
 .container,
 .vegetable,
@@ -91,9 +70,9 @@ color: blueviolet;
 }
 h2{
     text-transform: uppercase;
-    color:blueviolet;
+    color:lime;
     margin-bottom: -5px;
-    text-decoration: underline;
+    
 }
 /*.ingredients{
     border: 20px solid red;
@@ -104,12 +83,12 @@ p{
 }
 img{
     width:500px;
-    border: 2px solid blueviolet;
+    border: 2px solid lime;
 }
 /*.main-header{
     position: relative;
 }*/
-p,ul,ol{
+p,ul,ol,h2,h1{
     font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
 }
